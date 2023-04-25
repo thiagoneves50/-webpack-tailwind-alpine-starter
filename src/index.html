@@ -8,12 +8,10 @@
   </head>
   <body>
     <section
-      x-data="{
-        isActive: true,
-      }"  
+      x-data="data"  
     >      
       <button @click="isActive = !isActive" class="block bg-blue-300 p-3 m-4 rounded-lg">Hide Title</button>
-      <h1 x-show="isActive" class="text-4xl text-blue-500 ml-4">My Webpack + Tailwind App + Live Reload</h1>
+      <h1 x-show="isActive" class="text-4xl text-blue-500 ml-4">Webpack + Tailwind + Alpine + Live Reload</h1>
     </section>
   </body>
 </html>
